@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link]()
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/expenses-chart-component-81ArCGlbRw)
 - Live Site URL: [Link](https://thelaucha.github.io/expenses-chart-component-FM/)
 
 ## My process
