@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenses Chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header class="balance">
+        <div class="balance_col balance_data">
+          <p class="balance__subtitle">My balance</p>
+          <h2 class="balance__amount">$921.48</h2>
+        </div>
+        <div class="balance_col">
+          <img class="balance__logo" src="./images/logo.svg" alt="logo" />
+        </div>
+      </header>
+      <article class="spending">
+        <h2 class="spending__title">Spending - Last 7 days</h2>
+        <div class="spending_bars">
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">mon</span>
+          </div>
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">tue</span>
+          </div>
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">wed</span>
+          </div>
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">thu</span>
+          </div>
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">fri</span>
+          </div>
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">sat</span>
+          </div>
+          <div class="spending_bars_day">
+            <div class="spending_bars_day__bar tooltip">
+              <span class="tooltip_text"></span>
+            </div>
+            <span class="spending_bars_day__day">sun</span>
+          </div>
+        </div>
+        <hr />
+        <footer class="total">
+          <div class="total_col">
+            <p class="total--text_light">Total this month</p>
+            <h1 class="total__amount">$478.33</h1>
+          </div>
+          <div class="total_col">
+            <p class="total_average">+2.4%</p>
+            <p class="total--text_light">from last month</p>
+          </div>
+        </footer>
+      </article>
+    </section>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
