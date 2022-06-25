@@ -1,7 +1,7 @@
 const $bars = document.querySelectorAll(".spending_bars_day__bar")
 const $text = document.querySelectorAll(".tooltip_text")
 
-fetch("../data.json")
+fetch("./data.json")
   .then((response) => response.json())
   .then((dataJson) => {
     let barMax = Number(calculateMax(dataJson))
