@@ -178,3 +178,7 @@ hr {
     font-size: 0.8rem;
   }
 }
+
+.nada {
+  display: none;
+}
